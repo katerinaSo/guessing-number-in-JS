@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Guess number using DHTML</title>
+    <link href='styles01.css' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+    <header id='game'>Guess
+        <span style="color:rgb(209, 240, 126)">one number</span>
+        (from 1 to 100 including)</span>
+    </header>
+    <div>
+        <input id='guess' type="text">
+        <button></button> <!--просто пробел из hidden button-->
+        <button id='submitGuess'>first try</button>
+    </div>
+    <div class='output'>
+        <span id='attempt'>our number</span>
+        <span id='clue'></span>
+        <br/>
+        <span id='rand'></span>
+        <span></span>
+    </div>
+    <script src='guessing.js'></script>
+</body>
+
+</html>

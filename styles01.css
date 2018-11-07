@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(10, 73, 69);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+header {
+    color: rgb(59, 226, 198);
+    font: 1em sans-serif;
+    padding: 1em;
+    visibility: visible;
+}
+
+div {
+    padding: 1.3em;
+    visibility: visible;
+}
+
+p {
+    padding: 1em;
+    background-color: rgb(38, 148, 130);
+    color: rrgb(8, 34, 25)
+}
+
+input#guess {
+    padding: 1em;
+    border-color: rgb(38, 148, 130);
+    border-width: 1.6em;
+    background-color: black;
+    color: rgb(191, 238, 62);
+    visibility: visible;
+}
+
+button {
+    visibility: hidden;
+}
+
+button#submitGuess {
+    visibility: visible;
+    padding: .8em;
+    background-color: rgb(11, 83, 80);
+    border-width: 0.1em;
+    border-color: rgb(191, 238, 62);
+    font-size: 0.9em;
+    color: rgb(191, 238, 62);
+}
+
+.output {
+    color: rgb(59, 226, 198);
+}
+
+#clue {
+    color: rgb(191, 238, 62)
+}
